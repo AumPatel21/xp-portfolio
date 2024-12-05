@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Xp from './components/Xp';
+import Terminal from './components/Terminal';
+import Icons from './components/Icons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Xp />
+    <Icons />
+    <Terminal />
   </React.StrictMode>
 );
 
